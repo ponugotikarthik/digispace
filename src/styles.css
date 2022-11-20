@@ -3,7 +3,6 @@
     font-family: Rota;
     src: url("./assets/fonts/Rota/Rota-Black.otf") format("opentype");
 }
-
 @font-face {
     font-family: Rota;
     font-weight: bold;
@@ -14,7 +13,6 @@
     font-weight: 500;
     src: url("./assets/fonts/Rota/Rota-Medium.otf") format("opentype");
 }
-
 @font-face {
     font-family: Rota;
     font-weight:normal;
@@ -23,15 +21,58 @@
 .card{
     height: 13rem !important;
 }
+.text-color{
+    color: #2d2d2d;
+    font-weight: 700;
+}
+.gray-color{
+    color: #999999;
+}
+.displays-color{
+    color: #5448C8;
+}
+h1{
+    font-size: calc(3.5rem + 1.5vw);
+    font-weight: bold;
+}
+.time{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #999999;
+}
+.ontime{
+    font-size: 1rem;
+}
+.circle {
+    background-color: #6DD0A5;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+.text-bg-green {
+    color: #ffffff;
+    background: #6DD0A5;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 0.4rem 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 1.4rem;
+}
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
     .card{
         height: auto !important;
     }
- }
+}
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .card{
         height: auto !important;
     }
- }
+}

@@ -1,0 +1,32 @@
+.text-color{
+    color: #2d2d2d;
+    font-weight: 700;
+}
+.displays-color{
+    color: #5448C8;
+}
+h1{
+    font-size: calc(3.5rem + 1.5vw);
+    font-weight: bold;
+}
+.gray-color{
+    color: #999999;
+}
+.ontime{
+    font-size: 1rem;
+}
+.time{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #999999;
+}
+.text-bg-green {
+    color: #ffffff;
+    background: #6DD0A5;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 0.4rem 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 1.4rem;
+}

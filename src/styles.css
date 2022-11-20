@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Rota;
+    src: url("./assets/fonts/Rota/Rota-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Rota;
+    font-weight: bold;
+    src: url("./assets/fonts/Rota/Rota-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: Rota;
+    font-weight: 500;
+    src: url("./assets/fonts/Rota/Rota-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Rota;
+    font-weight:normal;
+    src: url("./assets/fonts/Rota/Rota-Regular.otf") format("opentype");
+}
+.card{
+    height: 13rem !important;
+}
+@media (max-width: 575.98px) { 
+    .card{
+        height: auto !important;
+    }
+ }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .card{
+        height: auto !important;
+    }
+ }
